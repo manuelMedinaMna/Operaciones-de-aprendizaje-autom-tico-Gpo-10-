@@ -84,10 +84,6 @@ Una sola semilla (`--seed`) controla todas las fuentes de aleatoriedad:
 La semilla se registra como parámetro de cada corrida. Las versiones de las
 dependencias están fijadas en `requirements.txt`.
 
-**Verificación:** se ejecutó dos veces el mismo comando con el solver
-estocástico y las dos corridas (experimento `titanic-logreg-reproducibilidad`)
-registraron métricas idénticas en todos los decimales.
-
 ```bash
 python titanic_logistic_regression_pipeline.py --C 0.1 --l1-ratio 0.5 --seed 7 --experiment-name titanic-logreg-reproducibilidad
 ```
